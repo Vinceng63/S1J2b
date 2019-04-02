@@ -1,0 +1,131 @@
+a
+{
+	text-decoration: none;
+}
+
+body
+{
+	padding: 30px;
+}
+
+#menu
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+span[class*="element"]
+{
+font-family: arial, sans-serif;
+font-size: 13px;
+padding: 15px;
+}
+
+span[class="element1"]
+{
+color: rgb(0, 0, 0);
+opacity:0.87;
+}
+
+span[class="element2"]
+{
+font-weight: bold;
+color: #FFFFFF;
+background-color: #4584ed;
+border-radius: 5px;
+}
+
+img[class*="apps"]
+{
+height: 30px;
+width: 30px;
+padding: 15px;
+}
+
+section
+{
+justify-content: space-around;
+}
+
+
+.google
+{
+padding: 109px 0px 0px 0px;
+width: 272px;
+height: 92px;
+}
+
+.search
+{
+width: 582px;
+height: 44px;
+border: 1px #eaebee solid;
+border-radius: 50px;
+display: flex;
+flex-direction: row;
+}
+
+input
+{
+text-decoration: none;
+width: 514px;
+height: 34px;
+align-content: flex-start;
+align-items: center;
+outline: none;
+}
+
+.saisie-vocale
+{
+width: 40px;
+height: 40px;
+}
+
+#espace-sous-search
+{
+margin: 18px 0px 0px 0px;
+}
+
+#boutons
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+span[class="element-bouton"]
+{
+font-family: arial, sans-serif;
+color: #5e666d;
+background-color: #f3f3f3;
+border-radius: 5px;
+margin: 11px 4px;
+}
+
+
+footer 
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top:30px;
+  padding-bottom: 30px;
+}
+
+.element-footer
+{
+font-family: arial, sans-serif;
+color: #5e666d;
+background-color: #f3f3f3;
+border-radius: 5px;
+margin: 11px 4px;
+}
